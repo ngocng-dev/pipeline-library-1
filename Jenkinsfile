@@ -1,7 +1,4 @@
 #!groovy
-library identifier: 'lib@master', retriever: modernSCM(
-  [$class: 'GitSCMSource',
-   remote: 'https://github.com/liatrio/pipeline-library.git')
 
 pipeline {
   agent any
