@@ -17,7 +17,7 @@ pipeline {
     prodEnvironment = "" /* Mandatory */
   }
   tools {
-    maven 'maven-3.3.9' //label should match Jenkins Global configuration name.
+    maven 'linux' //label should match Jenkins Global configuration name.
   }
   stages {
     stage('Maven build') {
