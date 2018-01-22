@@ -16,9 +16,7 @@ pipeline {
     stagingEnvironment = "" /* Mandatory */
     prodEnvironment = "" /* Mandatory */
   }
-  tools {
-    maven 'linux' //label should match Jenkins Global configuration name.
-  }
+
   stages {
     stage('Maven build') {
       steps {
